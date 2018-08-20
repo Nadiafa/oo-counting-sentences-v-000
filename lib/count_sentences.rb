@@ -15,6 +15,8 @@ class String
   end
 
   def count_sentences
-    self.split(/[.?!]/).count
+    splitted = []
+    splitted << self.split(/[.?!]/)
+    scplitted.count
   end
 end
